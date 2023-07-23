@@ -5197,7 +5197,7 @@ GameObject:
   m_IsActive: 1
 --- !u!95 &653980753
 Animator:
-  serializedVersion: 5
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5214,8 +5214,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &653980754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86842,7 +86841,7 @@ PrefabInstance:
     - target: {fileID: 6308001444549324416, guid: e7fbea47cab87d24d89b56b8acbc2fe8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 71986393}
     - target: {fileID: 6308001444549324416, guid: e7fbea47cab87d24d89b56b8acbc2fe8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: change_scene_main
@@ -86938,7 +86937,7 @@ PrefabInstance:
     - target: {fileID: 6308001446099588315, guid: e7fbea47cab87d24d89b56b8acbc2fe8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1290747720}
     - target: {fileID: 6308001446099588315, guid: e7fbea47cab87d24d89b56b8acbc2fe8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ResumeGame
@@ -86946,7 +86945,7 @@ PrefabInstance:
     - target: {fileID: 6308001446327653989, guid: e7fbea47cab87d24d89b56b8acbc2fe8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 71986393}
     - target: {fileID: 6308001446327653989, guid: e7fbea47cab87d24d89b56b8acbc2fe8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: quit_game
